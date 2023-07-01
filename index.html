@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="back-drop"></div>
+    <header class="main-header">
+        <img src="images/logo1.png" alt="logo">
+        <nav>
+            <ul>
+                <div class="align-btn">
+                    <li>
+                        <a href="#">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#">PORTFOLIO</a>
+                    </li>
+                    <li>
+                        <a href="#">SERVICES</a>
+                    </li> 
+                </div> 
+            </ul>      
+        </nav>
+    </header>
+ <main>
+    <section class="main-content">
+        <h2> I'm <span class="auto-input"></span></h2>
+        <p>You can reach out to me for any help in 
+           making a website for your business.
+        </p>
+        <div class="btn">
+            <button type="button" id="btn1">Contact me</button>
+            <button type="button">Send mail</button>
+        </div>
+        <div class="align-img">
+            <img src="images/Edmond.png" alt="image">
+            <hr>
+        </div>
+        
+    </section>
+
+    <div class="footer">
+        <small class="copyright">Copyright ©2023 Edmond Akwasi</small>
+    </div>
+    
+ </main>
+
+ <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+ <script>
+    var typed = new Typed('.auto-input', {
+    strings: ['Edmond Akwasi', 'a Web Developer and', 'a UI/UX Designer'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    loop: true
+});
+</script>  
+
+</body>
+</html>
